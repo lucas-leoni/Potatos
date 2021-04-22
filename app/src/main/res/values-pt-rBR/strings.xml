@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carrinho_name">Carrinho</string>
+    <string name="contatos_name">Contato</string>
+    <string name="pedidos_name">Pedido</string>
+    <string name="perfil_name">Perfil</string>
+</resources>

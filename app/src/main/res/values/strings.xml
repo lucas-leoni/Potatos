@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Potatos</string>
+    <string name="carrinho_name">Cart</string>
+    <string name="contatos_name">Contact</string>
+    <string name="pedidos_name">Order</string>
+    <string name="perfil_name">Profile</string>
+</resources>
