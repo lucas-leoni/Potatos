@@ -20,4 +20,7 @@ public class CarrinhoActivity extends AppCompatActivity {
         TextView nomeTextView = (TextView) findViewById(R.id.nome_text_view);
         nomeTextView.setText("Nome: " + nome);
     }
+    public void text() {
+        //alguma coisa
+    }
 }
