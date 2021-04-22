@@ -15,9 +15,9 @@ public class CarrinhoActivity extends AppCompatActivity {
         Intent intencao = getIntent();
         String texto = intencao.getStringExtra(PedidosActivity.MENSAGEM);
         TextView textView = (TextView) findViewById(R.id.mensagem);
-        textView.setText("Texto informado: " + texto);
+        textView.setText("Mensagem: " + texto);
         String nome = intencao.getStringExtra(PedidosActivity.NOME);
         TextView nomeTextView = (TextView) findViewById(R.id.nome_text_view);
-        nomeTextView.setText("Nome informado: " + nome);
+        nomeTextView.setText("Nome: " + nome);
     }
 }
