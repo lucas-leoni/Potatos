@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Potatos">
-        <activity android:name=".CarrinhoActivity"
-                  android:parentActivityName=".MainActivity"></activity>
         <activity
-            android:name=".PerfilActivity"
+            android:name=".NovoPedidoActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".CarrinhoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ConfirmarActivity"
             android:parentActivityName=".MainActivity">
 
             <!--
@@ -24,7 +29,7 @@
             android:name=".PedidosActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".ContatoActivity"
+            android:name=".PagamentoActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,20 +1,19 @@
 <resources>
     <string name="app_name" translatable="false">Potatoes</string>
     <string name="carrinho_name">Cart</string>
-    <string name="contatos_name">Contact</string>
+    <string name="pagamento_name">Payment</string>
     <string name="pedidos_name">Order</string>
-    <string name="perfil_name">Profile</string>
     <string-array name="porcoes">
-        <item>Selecione</item>
-        <item>Batata pequena</item>
-        <item>Batata média</item>
-        <item>Batata grande</item>
-        <item>Batata com bacon pequena</item>
-        <item>Batata com bacon média</item>
-        <item>Batata com bacon grande</item>
+        <item>Select</item>
+        <item>Small potato</item>
+        <item>Medium potato</item>
+        <item>Large potato</item>
+        <item>Small potato with bacon</item>
+        <item>Medium potato with bacon</item>
+        <item>Large potato with bacon</item>
     </string-array>
     <string-array name="refrigerantes">
-        <item>Selecione</item>
+        <item>Select</item>
         <item>Coca-Cola</item>
         <item>Pepsi</item>
         <item>Guaraná Antarctica</item>
@@ -22,4 +21,24 @@
         <item>Fanta</item>
         <item>Sukita</item>
     </string-array>
+    <string-array name="pagamentos">
+        <item>Select</item>
+        <item>Credit card</item>
+        <item>Debit card</item>
+        <item>Money</item>
+    </string-array>
+    <string name="confirmar_name">Confirm</string>
+    <string name="confirmar_pedido_name">Confirm order</string>
+    <string name="novo_pedido_name">New order</string>
+    <string name="bem_vindo_name">Welcome to Potatoes</string>
+    <string name="fazer_pedido_name">Make your order now</string>
+    <string name="porcao_name">Choose your portion here</string>
+    <string name="refrigerante_name">Choose your soda here</string>
+    <string name="itens_carrinho_name">These are the items in your cart</string>
+    <string name="endereco_name">Enter delivery address</string>
+    <string name="metodo_pagamento_name">Enter payment method</string>
+    <string name="endereco_digitado_name">Address provided</string>
+    <string name="metodo_pagamento_digitado_name">Payment method entered</string>
+    <string name="pedido_realizado_name">Order successfully placed</string>
+    <string name="fazer_novo_pedido_name">Do you want to make a new order?</string>
 </resources>
