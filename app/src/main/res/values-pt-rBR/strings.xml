@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="carrinho_name">Carrinho</string>
-    <string name="contatos_name">Contato</string>
+    <string name="pagamento_name">Pagamento</string>
     <string name="pedidos_name">Pedido</string>
-    <string name="perfil_name">Perfil</string>
+    <string name="confirmar_name">Confirmar</string>
+    <string name="confirmar_pedido_name">Confirmar pedido</string>
+    <string name="novo_pedido_name">Novo pedido</string>
+    <string name="bem_vindo_name">Bem-vindo ao Potatoes</string>
+    <string name="fazer_pedido_name">Faça seu pedido agora</string>
+    <string name="porcao_name">Escolha sua porção aqui</string>
+    <string name="refrigerante_name">Escolha seu refrigerante aqui</string>
+    <string name="itens_carrinho_name">Estes são os itens em seu carrinho</string>
+    <string name="endereco_name">Insira o endereço de entrega</string>
+    <string name="metodo_pagamento_name">Insira o método de pagamento</string>
+    <string name="endereco_digitado_name">Endereço fornecido</string>
+    <string name="metodo_pagamento_digitado_name">Método de pagamento inserido</string>
+    <string name="pedido_realizado_name">Pedido feito com sucesso</string>
+    <string name="fazer_novo_pedido_name">Você quer fazer um novo pedido?</string>
 </resources>
