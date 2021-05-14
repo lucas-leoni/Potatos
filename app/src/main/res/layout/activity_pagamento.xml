@@ -8,12 +8,11 @@
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/textPagamento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="122dp"
         android:text="@string/endereco_name"
-        android:textColor="#9C27B0"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pagamento_spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/pagamento_spinner"
+        style="@style/buttonPagamento"/>
 
     <EditText
         android:id="@+id/endereco_edit_text"
@@ -45,12 +45,11 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/textPagamento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:text="@string/metodo_pagamento_name"
-        android:textColor="#673AB7"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

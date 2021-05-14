@@ -8,12 +8,11 @@
 
     <TextView
         android:id="@+id/porcao_text"
+        style="@style/textPedidos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="122dp"
         android:text="@string/porcao_name"
-        android:textColor="#673AB7"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/refrigerante_spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/refrigerante_spinner"
+        style="@style/buttonPedidos"/>
 
     <Spinner
         android:id="@+id/porcao_spinner"
@@ -45,12 +45,11 @@
 
     <TextView
         android:id="@+id/refrigerante_text"
+        style="@style/textPedidos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:text="@string/refrigerante_name"
-        android:textColor="#673AB7"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

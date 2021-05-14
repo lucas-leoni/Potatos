@@ -8,12 +8,11 @@
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/textCarrinho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
         android:text="@string/itens_carrinho_name"
-        android:textColor="#673AB7"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,16 +28,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/refrigerante_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/refrigerante_text_view"
+        style="@style/buttonCarrinho"/>
 
     <TextView
         android:id="@+id/porcao_text_view"
+        style="@style/text2Carrinho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
         android:text="TextView"
-        android:textColor="#E91E63"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,12 +45,11 @@
 
     <TextView
         android:id="@+id/refrigerante_text_view"
+        style="@style/text2Carrinho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="TextView"
-        android:textColor="#E91E63"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textMain" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#fff200</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="buttonMain" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#000000</item>
+        <item name="android:textColor">#fff200</item>
+    </style>
+
+    <style name="textPedidos" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1e90ff</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="buttonPedidos" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#EA2027</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="textCarrinho" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#079992</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="text2Carrinho" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#fa8231</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="buttonCarrinho" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#6D214F</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="textPagamento" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#44bd32</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="buttonPagamento" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#fff200</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="textConfirmar" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1B1464</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="text2Confirmar" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#eb2f06</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="buttonConfirmar" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#009432</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="textNovoPedido" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#A3CB38</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="buttonNovoPedido" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#596275</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
